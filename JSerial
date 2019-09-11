@@ -1,0 +1,10 @@
+var form = $(
+            '<form action="' + url + '" method="post">' +
+            '<input type="hidden" name="field1" value="' + big-data-str-1 + '">' +
+            '<input type="hidden" name="field2" value="' + big-data-str-2 + '">' +
+            '<input type="hidden" name="field-n" value="' + big-data-str-n + '">' +
+            '<input type="submit">' +
+            '</form>'
+        );
+var str_for_send = form.serialize();
+        
