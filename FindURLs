@@ -1,0 +1,9 @@
+<?php
+$fn="placeQ.txt";
+$file = file_get_contents($fn);
+preg_match_all('#\bhttps?://[^,\s()<>]+(?:\([\w\d]+\)|([^,[:punct:]\s]|/))#', $file, $match);
+
+echo "<pre>";
+print_r($match[0]); 
+echo "</pre>";
+?>
